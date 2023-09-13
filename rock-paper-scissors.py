@@ -1,10 +1,10 @@
 #creating a game.
 import random
 
-computer_choice= random.choice(['rock', 'paper', 'scissors'])
+computer_choice= random.choice(['rock', 'paper', 'scissors']) #This code helps generate random values.
 user_choice = input('Pick rock, paper, or scissors? ')
 
-print('Computer choice:', computer_choice)
+print('Computer choice:', computer_choice) # this prints the computer choice so we can see what the computer choices.
 
 
 if computer_choice == user_choice:
